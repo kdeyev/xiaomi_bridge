@@ -9,6 +9,9 @@ RUN sudo apt install -y subversion
 #RUN sudo apt install ros-noetic-desktop-full
 
 RUN sudo apt install -y ros-noetic-rviz
+RUN sudo apt install -y ros-noetic-teleop-twist-keyboard
+RUN sudo apt install -y ros-noetic-gmapping
+RUN sudo apt install -y ros-noetic-explore-lite 
 
 # VNC
 EXPOSE 5900
